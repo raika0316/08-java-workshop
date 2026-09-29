@@ -1,0 +1,25 @@
+// 第8回：Java総合演習（復習・エラーとデバッグ・図書館管理システム・コードレビュー）
+// デバッグ実習と、自分で書く図書館管理システムのための Java 環境です。
+{
+  "name": "Java総合演習 (Java 21)",
+  "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "EditorConfig.EditorConfig",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "vscjava.vscode-java-pack"
+      ],
+      "settings": {
+        "files.eol": "\n",
+        "files.insertFinalNewline": true,
+        "files.trimTrailingWhitespace": true,
+        "editor.tabSize": 4,
+        "java.configuration.updateBuildConfiguration": "automatic"
+      }
+    }
+  },
+
+  "remoteUser": "vscode"
+}
